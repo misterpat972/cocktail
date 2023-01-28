@@ -1,17 +1,17 @@
 <template>
     <div class="public">        
         <PublicNave/>
+        <router-view/>
     </div>
-    <router-view/>
 </template>
 
 <script>
 import PublicNave from '@/components/PublicNave.vue'
-export default {    
+export default {
     name: 'PublicLayout',
     components: {
         PublicNave
-    }
+}
 
 }
 </script>

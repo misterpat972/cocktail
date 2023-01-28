@@ -3,7 +3,9 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/Cocktails">Cocktails</router-link> |
-    <router-link to="/Contact">Contact</router-link>
+    <router-link to="/Contact">Contact</router-link> |
+    <router-link to="/admin/Dashboard">Admin</router-link> |
+    <button><router-link to="/login">Login</router-link></button>
   </nav>
 </template>
 
@@ -19,4 +21,5 @@ export default {
         position: absolute;
         left: 200px;
     }
+
 </style>
